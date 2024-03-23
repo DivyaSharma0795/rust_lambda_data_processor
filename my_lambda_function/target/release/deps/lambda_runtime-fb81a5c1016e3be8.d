@@ -1,0 +1,10 @@
+C:\Users\divya\OneDrive\Documents\Duke\MIDS\Semester 2\Cloud\ds655_ids721_miniproject06\my_lambda_function\target\release\deps\liblambda_runtime-fb81a5c1016e3be8.rmeta: C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.3.0\src\lib.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.3.0\src\client.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.3.0\src\requests.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.3.0\src\types.rs
+
+C:\Users\divya\OneDrive\Documents\Duke\MIDS\Semester 2\Cloud\ds655_ids721_miniproject06\my_lambda_function\target\release\deps\liblambda_runtime-fb81a5c1016e3be8.rlib: C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.3.0\src\lib.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.3.0\src\client.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.3.0\src\requests.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.3.0\src\types.rs
+
+C:\Users\divya\OneDrive\Documents\Duke\MIDS\Semester 2\Cloud\ds655_ids721_miniproject06\my_lambda_function\target\release\deps\lambda_runtime-fb81a5c1016e3be8.d: C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.3.0\src\lib.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.3.0\src\client.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.3.0\src\requests.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.3.0\src\types.rs
+
+C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.3.0\src\lib.rs:
+C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.3.0\src\client.rs:
+C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.3.0\src\requests.rs:
+C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\lambda_runtime-0.3.0\src\types.rs:

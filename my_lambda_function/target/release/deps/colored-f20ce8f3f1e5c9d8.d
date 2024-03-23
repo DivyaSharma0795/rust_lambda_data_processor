@@ -1,0 +1,10 @@
+C:\Users\divya\OneDrive\Documents\Duke\MIDS\Semester 2\Cloud\ds655_ids721_miniproject06\my_lambda_function\target\release\deps\libcolored-f20ce8f3f1e5c9d8.rmeta: C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-1.9.4\src\lib.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-1.9.4\src\color.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-1.9.4\src\control.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-1.9.4\src\style.rs
+
+C:\Users\divya\OneDrive\Documents\Duke\MIDS\Semester 2\Cloud\ds655_ids721_miniproject06\my_lambda_function\target\release\deps\libcolored-f20ce8f3f1e5c9d8.rlib: C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-1.9.4\src\lib.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-1.9.4\src\color.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-1.9.4\src\control.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-1.9.4\src\style.rs
+
+C:\Users\divya\OneDrive\Documents\Duke\MIDS\Semester 2\Cloud\ds655_ids721_miniproject06\my_lambda_function\target\release\deps\colored-f20ce8f3f1e5c9d8.d: C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-1.9.4\src\lib.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-1.9.4\src\color.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-1.9.4\src\control.rs C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-1.9.4\src\style.rs
+
+C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-1.9.4\src\lib.rs:
+C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-1.9.4\src\color.rs:
+C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-1.9.4\src\control.rs:
+C:\Users\divya\.cargo\registry\src\index.crates.io-6f17d22bba15001f\colored-1.9.4\src\style.rs:

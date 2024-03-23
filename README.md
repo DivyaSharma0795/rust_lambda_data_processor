@@ -1,59 +1,73 @@
-# AWS Lambda function to reverse a name
-### Divya Sharma (ds655)
+# Rust Lambda Data Processor
 
+## Overview
 
-## Description
+This project implements an AWS Lambda function in Rust using Cargo Lambda. The Lambda function receives a JSON payload containing three inputs, "id", "name" and "age". It takes that input and then populates a DynamoDB database. The processed data can be triggered via API Gateway.
 
-This project is a Rust application that is designed to run on AWS Lambda. It takes your name and returns the reverse of your name. The application is deployed to AWS Lambda using the AWS CLI.
+This is an extension from the project from week 5, with enabled the logging and X-ray tracing for week 6.
 
 ## Requirements
 
-- Rust: 1.76.0
-- AWS CLI: [specify version]
-- An AWS account
+- Rust compiler and Cargo package manager installed.
+- AWS account with permission to create Lambda functions.
+- API Gateway endpoint for triggering the Lambda function.
+- Enable Cloudwatch logs and X-ray tracing for the function
 
-## Setup
+## Project Structure
 
-1. **Compile the Rust application**:
+1. **Lambda Function Code:**
+   - Create a Rust project using Cargo.
+   - Add dependencies for AWS Lambda and serde for JSON serialization.
+   - Implement the Lambda function logic to receive three integers, process them, and return the results.
+   
+2. **API Gateway Integration:**
+   - Configure an API Gateway endpoint to trigger the Lambda function.
+   - Set up the necessary permissions and roles for the API Gateway to invoke the Lambda function.
 
-    ```bash
-    cargo build --release
-    ```
 
-2. **Create the `bootstrap` file**:
+## Setup Instructions
 
-    Create a new file named `bootstrap` with the following content:
+1. Clone the repository:
 
-    ```bash
-    #!/bin/sh
-    ./my_lambda_function
-    ```
+   ```
+   git clone https://gitlab.com/dukeaiml/IDS721/fj-49-week-6-aws-lambda-logging.git
+   ```
 
-    Make the `bootstrap` file executable:
+2. Navigate to the project directory:
 
-    ```bash
-    chmod +x bootstrap
-    ```
+   ```
+   cd fj49_week_6_aws_lambda_logging
+   ```
 
-3. **Create the deployment package**:
+3. Build the project:
 
-    Add the `bootstrap` file and your compiled Rust application to a zip file:
+   ```
+   cargo build --release
+   ```
 
-    ```bash
-    zip rust.zip bootstrap ./target/release/my_lambda_function
-    ```
+Since the rust lambda function is similar to week 5, the functionality is simple. Takes in data in JSON format for `id`, `name` and `age` and populates that in a DynamoDB database.
 
-4. **Upload the deployment package to AWS Lambda**:
+You can read full details ![here](https://gitlab.com/dukeaiml/IDS721/week5_cloud_fj49)
 
-    Use the AWS CLI to upload the zip file to AWS Lambda:
 
-    ```bash
-    aws lambda update-function-code --function-name my_lambda_function --zip-file fileb://rust.zip
-    ```
+## Screenshots 
 
-## Running the Application
+## Function
 
-To run the application, invoke the AWS Lambda function:
+![Screenshot 2](screenshots/function.png)
 
-```bash
-aws lambda invoke --function-name my_lambda_function outputfile.txt
+## Log streams
+
+![Screenshot 3](screenshots/logstreams.png)
+
+# X-Ray Tracing
+
+![Screenshot 4](screenshots/Xray_tracing.png)
+
+-----
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
