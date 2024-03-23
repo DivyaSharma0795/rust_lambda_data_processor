@@ -4,8 +4,6 @@
 
 This project implements an AWS Lambda function in Rust using Cargo Lambda. The Lambda function receives a JSON payload containing three inputs, "id", "name" and "age". It takes that input and then populates a DynamoDB database. The processed data can be triggered via API Gateway.
 
-This is an extension from the project from week 5, with enabled the logging and X-ray tracing for week 6.
-
 ## Requirements
 
 - Rust compiler and Cargo package manager installed.
@@ -30,13 +28,13 @@ This is an extension from the project from week 5, with enabled the logging and 
 1. Clone the repository:
 
    ```
-   git clone https://gitlab.com/dukeaiml/IDS721/fj-49-week-6-aws-lambda-logging.git
+   git clone https://gitlab.com/dukeaiml/IDS721/ds655_ids721_miniproject06.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd fj49_week_6_aws_lambda_logging
+   cd ds655_ids721_miniproject06
    ```
 
 3. Build the project:
@@ -45,9 +43,8 @@ This is an extension from the project from week 5, with enabled the logging and 
    cargo build --release
    ```
 
-Since the rust lambda function is similar to week 5, the functionality is simple. Takes in data in JSON format for `id`, `name` and `age` and populates that in a DynamoDB database.
+The functionality for the lambda function is simple. Takes in data in JSON format for `id`, `name` and `age` and populates that in a DynamoDB database.
 
-You can read full details ![here](https://gitlab.com/dukeaiml/IDS721/week5_cloud_fj49)
 
 
 ## Screenshots 
