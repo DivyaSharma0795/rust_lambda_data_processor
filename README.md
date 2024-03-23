@@ -51,15 +51,15 @@ The functionality for the lambda function is simple. Takes in data in JSON forma
 
 ## Function
 
-![Screenshot 2](screenshots/function.png)
+![Screenshot 2](screenshots/Screenshot 2024-03-23 at 01-33-06 CloudWatch us-east-2.png)
 
 ## Log streams
 
-![Screenshot 3](screenshots/logstreams.png)
+![Screenshot 3](screenshots/Screenshot 2024-03-23 at 01-29-26 Name_Reversal - Lambda.png)
 
 # X-Ray Tracing
 
-![Screenshot 4](screenshots/Xray_tracing.png)
+![Screenshot 4](screenshots/Screenshot%202024-03-23%20at%2001-30-14%20Name_Reversal%20-%20Lambda.png)
 
 -----
 
